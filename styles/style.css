@@ -1,0 +1,119 @@
+/* all css imports here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common duration */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+.container{
+    margin: 0%;
+}
+
+/* banner section styles */
+
+.banner-section{
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding-top: 135px;
+    padding-bottom: 86px;
+}
+.banner-title {
+    width: 50%;
+    margin-left: 156px;
+    margin-right: 102px;
+}
+.banner-title h1 {
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+.banner-image {
+    width: 50%;
+    margin-right: 140px;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+}
+.watch-live a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+/* banner section styles end */
+
+/* player section styles */
+
+.players-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+.players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    align-items: center;
+}
+.player{
+    width: 300px;
+    height: 474px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;
+    height: 256px;
+}
+/* player section styles end */
+
+/* foter section styles */
+.footers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
+.footer-logo img{
+    width: 484px;
+    height: 110px;
+}
+.social-icon{
+    display: flex;
+    background: #0B0D17;
+    opacity: 0.1;
+}
+.icon{
+    color: #969BAB;
+}
