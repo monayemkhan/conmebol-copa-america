@@ -97,7 +97,7 @@ p{
 /* player section styles end */
 
 /* foter section styles */
-.footers{
+.main-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
