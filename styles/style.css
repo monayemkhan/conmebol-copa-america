@@ -14,7 +14,7 @@ p{
     font-weight: 400;
 }
 .container{
-    margin: 0%;
+    margin: 0 auto;
 }
 
 /* banner section styles */
@@ -193,4 +193,58 @@ p{
     margin-top: 20px;
     margin-bottom: 28px;
 }
-
+/* media query styles */
+@media only screen and (max-width:667px) {
+    .banner-section {
+        height: auto;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner-title {
+        width: 100%;
+    }
+    .banner-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    .banner-image img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .players {
+        width: 100%;  
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights-section {
+        width: 100%;
+        flex-direction: column;
+    }
+    .hightlights {
+        width: 600px;
+    }
+    .coach-section h2 {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    .coaches {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .coach {
+        width: 100%;
+        min-height: auto;
+        margin-top: 20px;
+    }
+    .coach-image img {
+        display: block;
+        margin: 0 auto;
+    }
+    .coach-details {
+        margin: 0 auto;
+    }
+}
